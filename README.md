@@ -108,7 +108,7 @@ The following SQL queries were developed to answer specific business questions:
 
 1. **know how many times each customer purchase something ?**
 ```sql
-   SELECT customer_id , COUNT(customer_id) as PurchaseTotal
+SELECT customer_id , COUNT(customer_id) as PurchaseTotal
 FROM retail_sales 
 GROUP BY customer_id
 ORDER BY PurchaseTotal DESC;
@@ -297,15 +297,15 @@ ORDER BY no_of_orders DESC
 
 - **Customer Profile**: Purchases come from a wide age range, with a noticeable concentration in middle-aged customers. Buying behavior varies by category, with Clothing attracting the highest footfall and Beauty appealing to older, higher-spending buyers.
 
-**High-Value Orders**: Multiple transactions exceed 1000 in total sale value, showing that premium products—especially within the Electronics , Clothing and Beauty category—drive significant revenue spikes.
+- **High-Value Orders**: Multiple transactions exceed 1000 in total sale value, showing that premium products—especially within the Electronics , Clothing and Beauty category—drive significant revenue spikes.
 
-**Category Performance**: Clothing leads in total order count and units sold, while Beauty contributes disproportionately to revenue, indicating strong profitability despite lower volume.
+- **Category Performance**: Clothing leads in total order count and units sold, while Beauty contributes disproportionately to revenue, indicating strong profitability despite lower volume.
 
-**Seasonal Patterns**: Highest Monthly average sale in 2022 is in July and 2023 is in February but average 
+- **Seasonal Patterns**: Highest Monthly average sale in 2022 is in July and 2023 is in February but average 
 
-**Customer Behavior**: Only a small subset of customers purchases across all categories, indicating weak cross-category engagement. Yet, a handful of repeat buyers generate disproportionately higher revenue, identifying them as high-value customers worth retaining.
+- **Customer Behavior**: Only a small subset of customers purchases across all categories, indicating weak cross-category engagement. Yet, a handful of repeat buyers generate disproportionately higher revenue, identifying them as high-value customers worth retaining.
 
-**Operational Timing**: Most orders occur during the Evening Shift, making it the busiest period for transactions and a critical window for staffing and operational efficiency.
+- **Operational Timing**: Most orders occur during the Evening Shift, making it the busiest period for transactions and a critical window for staffing and operational efficiency.
 ## Reports
 
 - **Sales Summary**: A detailed report summarizing total sales, customer demographics, and category performance.
@@ -319,10 +319,9 @@ In this project mainly you learn of finding patterns of customer behaviour , the
 
 ## How to Use
 
-1. **Clone the Repository**: Clone this project repository from GitHub.
-2. **Set Up the Database**: Run the SQL scripts provided in the `database_setup.sql` file to create and populate the database.
-3. **Run the Queries**: Use the SQL queries provided in the `analysis_queries.sql` file to perform your analysis.
-4. **Explore and Modify**: Feel free to modify the queries to explore different aspects of the dataset or answer additional business questions.
+1. **Set Up the Database**: Run the SQL scripts provided in the `database_setup.sql` file to create and populate the database.
+2. **Run the Queries**: Use the SQL queries provided in the `analysis_queries.sql` file to perform your analysis.
+3. **Explore and Modify**: Feel free to modify the queries to explore different aspects of the dataset or answer additional business questions.
 
 ## Author - Puskar Ghosal
 
